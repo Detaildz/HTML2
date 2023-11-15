@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sąrašai</title>
+  </head>
+  <body>
+    <h2>Formų sintaksė</h2>
+    <h1>Pavyzdys</h1>
+    <form>
+      <input type="text" placeholder="Teksto laukelis" /> <br />
+      <input type="password" placeholder="Slaptazodis" /> <br />
+      <input type="email" placeholder="El.pasto adresas" /> <br />
+      <input type="number" value="1" min="1" max="100" /><br />
+      <input
+        type="text"
+        placeholder="Apribotas teksto laukelis"
+        maxlength="10"
+      />
+      <br />
+      <input type="date" placeholder="Data" /><br />
+      <input type="text" placeholder="Negalima rasyti" readonly /><br />
+      <input type="text" placeholder="Isjungtas" disabled /><br />
+      <input type="text" placeholder="Privalomas ivesti" required /><br />
+      <input type="submit" value="Patvirtinimo mygtukas" />
+    </form>
+    <h2>Text Area</h2>
+    <form>
+      <textarea cols="30" rows="3" placeholder="Tekstas"></textarea>
+    </form>
+    <form>
+      <textarea cols="30" rows="3">Tekstas</textarea>
+    </form>
+
+    <h2>Vienas pasirinkimo variantas (radio select)</h2>
+    <form>
+      <input type="radio" name="lytis" value="moteris" />Moteris <br />
+      <input type="radio" name="lytis" value="vyras" />Vyras <br />
+      <input type="submit" value="Patvirtinti" />
+    </form>
+    <h2>Keli pasirinkimo variantai (checkbox select)</h2>
+    <form>
+      <input type="checkbox" name="zanrai" value="komedija" />Komedija<br />
+      <input type="checkbox" name="zanrai" value="siaubo" />Siaubo<br />
+      <input type="checkbox" name="zanrai" value="trileris" />Trileris<br />
+      <input type="checkbox" name="zanrai" value="seimai" />Seimai<br />
+      <input type="submit" value="Patvirtinti" />
+    </form>
+
+    <h2>Pasirinkimas iš sąrašo (dropdown select)</h2>
+    <form>
+      <select name="Miestai">
+        <option value="Kaunas">Kaunas</option>
+        <option value="Vilnius">Vilnius</option>
+        <option value="Klaipeda">Klaiepda</option>
+        <option value="Jonava">Jonava</option>
+        <option value="Siauliai">Siauliai</option>
+      </select>
+    </form>
+    <h2>Formų užduotis 1</h2>
+    <form>
+      <input type="text" placeholder="Vartotojo vardas" /> <br />
+      <input type="password" placeholder="Slaptazodis" /><br />
+      <input type="submit" placeholder="Prisijungti" /><br />
+    </form>
+    <h2>Formu uzduotis 2</h2>
+    <form>
+      <input type="text" placeholder="Jusu vardas" /> <br />
+      <input type="email" placeholder="Jusu el. pasto adresas" /><br />
+      <input type="text" placeholder="Zinutes tema" maxlength="20" /><br />
+      <textarea cols="30" rows="3" placeholder="Tekstas"></textarea><br />
+      <input type="submit" placeholder="Siusti zinute" /><br />
+    </form>
+    <h2>Formų užduotis 3</h2>
+    <form>
+      <input type="text" placeholder="Vardas" /> <br />
+      <input
+        type="email"
+        name="El_pastas"
+        placeholder="El. pasto adresas"
+      /><br />
+      <input
+        type="email"
+        name="El_pastas"
+        placeholder="El. pasto adresas dar karta"
+      /><br />
+      <textarea cols="30" rows="3" placeholder="Aprasymas apie save"></textarea
+      ><br />
+      <input type="radio" name="Lytis" value="Moteris" />Moteris
+      <input type="radio" name="Lytis" value="Vyras" />Vyras<br />
+      <input type="submit" placeholder="Registruotis" />
+    </form>
+  </body>
+</html>
