@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(233, 205, 164);
+}
+
+div {
+  width: 450px;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(242, 237, 231);
+  margin: 25px auto;
+  font-family: "Courier New", Courier, monospace;
+  box-shadow: 10px 10px 10px #6c510c;
+  -webkit-box-shadow: 10px 10px 10px #6c510c;
+  -moz-box-shadow: 10px 10px 10px #6c510c;
+}
+
+button {
+  background-color: rgb(224, 185, 127);
+  border: none;
+  padding: 15px;
+  font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: l5px;
+}
