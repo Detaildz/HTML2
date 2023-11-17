@@ -53,7 +53,7 @@
       <select name="Miestai">
         <option value="Kaunas">Kaunas</option>
         <option value="Vilnius">Vilnius</option>
-        <option value="Klaipeda">Klaiepda</option>
+        <option value="Klaipeda">Klaipeda</option>
         <option value="Jonava">Jonava</option>
         <option value="Siauliai">Siauliai</option>
       </select>
@@ -66,10 +66,16 @@
     </form>
     <h2>Formu uzduotis 2</h2>
     <form>
-      <input type="text" placeholder="Jusu vardas" /> <br />
-      <input type="email" placeholder="Jusu el. pasto adresas" /><br />
-      <input type="text" placeholder="Zinutes tema" maxlength="20" /><br />
-      <textarea cols="30" rows="3" placeholder="Tekstas"></textarea><br />
+      <label for="text">Jusu vardas</label><br />
+      <input type="text" id="Vardas" /> <br />
+      <label for="email">Jusu el. pasto adresas</label><br />
+      <input type="email" id="email" /><br />
+      <label for="theme">Tema</label><br />
+      <input type="text" id="theme" maxlength="20" /><br />
+
+      <label for="message">Jusu Tekstas</label>
+      <br />
+      <textarea cols="30" rows="3" id="message"></textarea><br />
       <input type="submit" placeholder="Siusti zinute" /><br />
     </form>
     <h2>Formų užduotis 3</h2>
@@ -91,5 +97,17 @@
       <input type="radio" name="Lytis" value="Vyras" />Vyras<br />
       <input type="submit" placeholder="Registruotis" />
     </form>
+    <br />
+    <br />
+    <form>
+      <label for="vardasID">Vardas</label>
+      <input type="text" id="vardasID" />
+
+      <label for="pavardeID">Pavarde</label>
+      <input type="text" id="paverdeID" />
+
+      <input type="submit" value="Patvirtinti" />
+    </form>
+    <h3><a href="./index.html">Grizti atgal</a></h3>
   </body>
 </html>

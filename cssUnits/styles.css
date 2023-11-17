@@ -1,0 +1,21 @@
+.title {
+  width: 100%;
+  height: 20vh;
+  background-color: brown;
+  color: aliceblue;
+  text-align: center;
+}
+
+.div_box {
+  font-size: 20px;
+  background-color: antiquewhite;
+  padding: 20px;
+}
+
+.div_boxP {
+  margin-bottom: 2em;
+}
+
+.rootP {
+  margin-bottom: 2rem;
+}

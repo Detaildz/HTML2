@@ -1,0 +1,43 @@
+body {
+  background-color: #f0f2f7;
+}
+
+header {
+  background-color: #113f67;
+  color: #e7eaf6;
+  padding: 2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 2rem;
+  box-shadow: 5px 5px 5px 1px #171f43a5;
+}
+
+a {
+  color: #e7eaf6;
+  font-size: 1.5rem;
+  margin-right: 2rem;
+  text-decoration: none;
+}
+
+main {
+  border: 1px solid #0a263e;
+  margin: 0 2rem;
+  border-radius: 20px;
+  background-color: #092843c0;
+  color: #e7eaf6;
+}
+
+.mainP {
+  padding: 4rem 4rem 1rem 4rem;
+  background-image: url(../Images/backgroundBlue.png);
+  background-size: cover;
+  color: #e7eaf6;
+  border-radius: 15px 15px 0px 0px;
+  box-shadow: 0 3px 13px 3px #171f43;
+}
+
+.pastraipa1 {
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1.5rem;
+}
